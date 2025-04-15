@@ -29,6 +29,20 @@ body {
   border-radius: 5px;
 }
 
+.input-group {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+
 .register-box button {
   width: 100%;
   padding: 10px;
