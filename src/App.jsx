@@ -1,6 +1,7 @@
-import React from "react";
+import React, { use, useState } from "react";
 
 const App = () => {
+  const { text, setText } = useState;
   return (
     <div>
       <div className="register-box">
