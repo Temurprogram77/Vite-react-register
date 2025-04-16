@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f2f5;
+  background-color: #94ff8b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .register-box {
-  background-color: #fff;
+  background-color: #eeffe4;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -47,7 +47,7 @@ body {
 .register-box button {
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
+  background-color: #76c979;
   color: white;
   border: none;
   border-radius: 5px;
