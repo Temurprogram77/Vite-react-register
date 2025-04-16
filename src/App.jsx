@@ -1,12 +1,13 @@
 import React, { use, useState } from "react";
 
 const App = () => {
-  const { text, setText } = useState;
+  const { text, setText } = useState();
+  const { privates, setPrivates } = useState(false);
   return (
     <div>
       <div className="register-box">
         <h2>Ro'yxatdan o'tish</h2>
-        <input type="text" placeholder="Foydalanuvchi nomi" name="username" />
+        <input type={privates?"text":"password"} placeholder="Foydalanuvchi nomi" name="username" />
         <input type="email" placeholder="Email" name="email" />
         <div class="input-group">
           <input
